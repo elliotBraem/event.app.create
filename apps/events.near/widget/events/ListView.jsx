@@ -3,7 +3,7 @@ const { Button, Hashtag } = VM.require("buildhub.near/widget/components") || {
   Hashtag: () => <></>,
 };
 
-const { Card } = VM.require("${config/account}/widget/events.Card") || {
+const { Card } = VM.require("events.efiz.near/widget/events.Card") || {
   Card: () => <></>,
 };
 

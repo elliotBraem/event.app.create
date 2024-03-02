@@ -17,7 +17,7 @@ const config = {
     Header: () => (
       // customize your header
       <Widget
-        src="${config/account}/widget/components.Navbar"
+        src="events.efiz.near/widget/components.Navbar"
         props={{ routes: config.router.routes, ...passProps }}
       />
     ),
@@ -27,7 +27,7 @@ const config = {
     param: "page",
     routes: {
       home: {
-        path: "${config/account}/widget/page.home",
+        path: "events.efiz.near/widget/page.home",
         blockHeight: "final",
         init: {
           name: "Home",
@@ -35,35 +35,35 @@ const config = {
         default: true,
       },
       metadata: {
-        path: "${config/account}/widget/page.metadata",
+        path: "events.efiz.near/widget/page.metadata",
         blockHeight: "final",
         init: {
           name: "Start",
         },
       },
       styles: {
-        path: "${config/account}/widget/page.styles",
+        path: "events.efiz.near/widget/page.styles",
         blockHeight: "final",
         init: {
           name: "Styles",
         },
       },
       router: {
-        path: "${config/account}/widget/page.router",
+        path: "events.efiz.near/widget/page.router",
         blockHeight: "final",
         init: {
           name: "Features",
         },
       },
       button: {
-        path: "${config/account}/widget/page.button",
+        path: "events.efiz.near/widget/page.button",
         blockHeight: "final",
         init: {
           name: "Button",
         },
       },
       preview: {
-        path: "${config/account}/widget/page.preview",
+        path: "events.efiz.near/widget/page.preview",
         blockHeight: "final",
         init: {
           name: "Preview",
@@ -71,7 +71,7 @@ const config = {
         },
       },
       launch: {
-        path: "${config/account}/widget/page.launch",
+        path: "events.efiz.near/widget/page.launch",
         blockHeight: "final",
         init: {
           name: "Launch",

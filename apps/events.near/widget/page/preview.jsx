@@ -24,7 +24,7 @@ return (
           blocks: {
             Header: () => (
               <Widget
-                src="${config/account}/widget/components.Navbar"
+                src="events.efiz.near/widget/components.Navbar"
                 props={{
                   routes: store.router?.routes,
                   image: store.metadata?.image,

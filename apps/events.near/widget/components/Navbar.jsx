@@ -1,4 +1,4 @@
-const { Button } = VM.require("${config/account}/widget/components") || {
+const { Button } = VM.require("events.efiz.near/widget/components") || {
   Button: () => <></>,
 };
 
@@ -72,7 +72,7 @@ const NavLink = ({ to, children }) => {
       <Link
         key={to}
         to={href({
-          widgetSrc: "${config/account}/widget/app",
+          widgetSrc: "events.efiz.near/widget/app",
           params: {
             page: "preview",
             tab: to,
@@ -87,7 +87,7 @@ const NavLink = ({ to, children }) => {
       <Link
         key={to}
         to={href({
-          widgetSrc: "${config/account}/widget/app",
+          widgetSrc: "events.efiz.near/widget/app",
           params: {
             page: to,
           },
@@ -228,7 +228,7 @@ const Navbar = ({ page, param, routes, ...props }) => (
       <MobileNavigation>
         <Link
           to={href({
-            widgetSrc: "${config/account}/widget/app",
+            widgetSrc: "events.efiz.near/widget/app",
             params: {
               [param]: "home",
             },

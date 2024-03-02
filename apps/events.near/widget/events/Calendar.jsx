@@ -202,7 +202,7 @@ const CurrentView = () => {
   if (selectedView === "month") {
     return (
       <Widget
-        src="${config/account}/widget/events.MonthView"
+        src="events.efiz.near/widget/events.MonthView"
         loading=""
         props={{
           currentDate,
@@ -215,7 +215,7 @@ const CurrentView = () => {
 
   return (
     <Widget
-      src="${config/account}/widget/events.ListView"
+      src="events.efiz.near/widget/events.ListView"
       loading=""
       props={{
         currentDate,
